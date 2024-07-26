@@ -1,0 +1,30 @@
+{
+	"C boiler": {
+		"prefix": "c boiler",
+		"body": [
+			"#include<stdio.h>\n",
+
+			"int main(){",
+			"\t$2",
+    		"\treturn 0;",
+			"}",
+		],
+		"description": "Log output to console"
+	},
+
+	"Print f": {
+		"prefix": "pf",
+		"body": [
+			"printf($2)\n",
+		],
+		"description": "Log output to console"
+	},
+
+	"Scan f": {
+		"prefix": "sf",
+		"body": [
+			"scanf($2)\n",
+		],
+		"description": "Log output to console"
+	}
+}
