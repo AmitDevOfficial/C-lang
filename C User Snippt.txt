@@ -15,7 +15,7 @@
 	"Print f": {
 		"prefix": "pf",
 		"body": [
-			"printf($2)\n",
+			"printf(\"$0\\n\");\n",
 		],
 		"description": "Log output to console"
 	},
@@ -23,7 +23,7 @@
 	"Scan f": {
 		"prefix": "sf",
 		"body": [
-			"scanf($2)\n",
+			"scanf(\"$0\\n\");\n",
 		],
 		"description": "Log output to console"
 	}
