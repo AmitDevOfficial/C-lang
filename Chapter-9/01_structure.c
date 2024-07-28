@@ -15,7 +15,7 @@ int main(){
     e1.code = 45511;
     e1.salary = 54.44;
 
-    printf("%d %s %f\n",e1.code, e1.name, e1.salary);
+    printf("%s %d %.4f\n",e1.name, e1.code, e1.salary);
     
     return 0;
 }
