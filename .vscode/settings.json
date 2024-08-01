@@ -2,7 +2,8 @@
     "C_Cpp.default.compilerPath": "C:\\MinGW\\bin\\gcc.exe",
     "files.associations": {
         "*.ejs": "html",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "stdlib.h": "c"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
