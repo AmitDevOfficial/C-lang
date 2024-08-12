@@ -1,10 +1,12 @@
 #include<stdio.h>
 
 int main(){
-    char st[30];
-    gets(st);
-    puts(st); // it remove to the next line
+    char name[30];
+    gets(name); //get cannot print the next msg in new line
+    // printf("%s", name);
+    
+    puts(name);  //get can be print the next msg in new line
+
     printf("welcome");
     
     return 0;
-}
