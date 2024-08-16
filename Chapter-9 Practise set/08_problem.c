@@ -1,6 +1,6 @@
 /*
-8. Create a structure representing a bank account of a customer. What fields did
-you use and why?s
+9. Write a structure capable of storing date. Write a function to compare those
+dates.
 */
 
 #include <stdio.h>
